@@ -1,0 +1,30 @@
+<div
+  class="_cursor_1c3eq_218"
+  style="
+    translate: none;
+    rotate: none;
+    scale: none;
+    transform: translate(-50%, -50%) translate(716px, 124.5px);
+  "
+>
+  <svg viewBox="0 0 150 150" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <circle
+      vector-effect="non-scaling-stroke"
+      cx="75"
+      cy="75"
+      r="74.5"
+    ></circle>
+    <line vector-effect="non-scaling-stroke" y1="74.5" x2="40" y2="74.5"></line>
+    <line
+      vector-effect="non-scaling-stroke"
+      x1="110"
+      y1="74.5"
+      x2="150"
+      y2="74.5"
+    ></line></svg
+  ><span class="u-uppercase u-b0">Enlarge</span>
+</div>
+
+._cursor_1c3eq_218 { position: fixed; z-index: 200; top: 50%; left: 50%;
+transform: translate(-50%,-50%); user-select: none; pointer-events: none;
+mix-blend-mode: exclusion; opacity: 0; transition: opacity 125ms; }

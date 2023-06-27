@@ -1,0 +1,22 @@
+{
+  "name": "jbxxnnportfolio",
+  "version": "1.0.0",
+  "browserslist": "> 0.5%, last 2 versions, not dead",
+  "description": "",
+  "scripts": {
+    "preinstall": "chmod +x node_modules/.bin/rimraf && chmod +x node_modules/.bin/parcel",
+    "start": "parcel index.html --open",
+    "clean": "rimraf dist/*",
+    "build:parcel": "parcel build index.html --no-content-hash --no-source-maps --public-url ./",
+    "build": "npm run clean && npm run build:parcel"
+  },
+  "devDependencies": {
+    "parcel": "^2.8.2",
+    "rimraf": "^5.0.1"
+  },
+  "dependencies": {
+    "@studio-freight/lenis": "^0.2.28",
+    "gsap": "^3.11.4",
+    "splitting": "^1.0.6"
+  }
+}
