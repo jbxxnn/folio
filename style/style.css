@@ -1454,123 +1454,6 @@ span.font-upper.font-19.font-medium .whitespace {
   margin: 0 3px;
 }
 
-@media (max-width: 768px) {
-  .name {
-    font-size: 5rem !important;
-  }
-  .c-heading.-h1-sans {
-    font-size: 2.5rem;
-  }
-  .content__title {
-    gap: 0rem !important;
-  }
-  .o-container {
-    padding: 0 0.5rem !important;
-  }
-  .font-small {
-    font-weight: 300 !important;
-  }
-  .zt-overview-container {
-    padding: 0 !important;
-  }
-  .zt-overview-navs {
-    display: none !important;
-  }
-  .zt-overview-grid-col.-right {
-    padding-top: 0rem;
-  }
-  .zt-overview-item {
-    flex: 0 0 97%;
-    padding: 1rem;
-    margin: 2rem 1rem;
-  }
-  a.zt-btn.zt-btn_cta {
-    height: 2.5rem;
-    font-size: 1rem;
-  }
-  h3.work-desc {
-    text-align: center;
-    font-size: 1.3rem;
-  }
-  p.work-desc {
-    font-size: 3vw;
-    line-height: 1rem;
-    font-weight: 400;
-    text-align: center;
-  }
-  .zt-overview-action {
-    display: none;
-    justify-content: center;
-  }
-  .cnt-notice {
-    padding: 0px 1rem !important;
-  }
-  .zt-overview-items {
-    display: block;
-  }
-  .zt-overview-main {
-    margin: 0;
-    position: relative;
-    padding: 1rem;
-  }
-  .large-header h2 {
-    font-size: 50px;
-  }
-  .desc-footer {
-    width: var(--container-widget-width, 95%);
-    max-width: 90%;
-    --container-widget-width: 95%;
-  }
-  .footer-e-con {
-    flex-direction: column;
-    gap: 20px;
-  }
-  .footer-icon {
-    width: 100%;
-    justify-content: center;
-  }
-  .company-name {
-    width: 45%;
-  }
-  .company-text {
-    width: 45%;
-  }
-  .company-text p {
-    text-align: right;
-  }
-  .footer-copyright-text {
-    width: 100%;
-  }
-  ul.elementor-icon-list-items.elementor-inline-items {
-    width: 100%;
-    margin: 2px 0;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 0;
-  }
-  .elementor-element.elementor-element-fa177e4.elementor-align-right.elementor-mobile-align-center.elementor-widget__width-inherit.elementor-widget-mobile__width-initial.elementor-icon-list--layout-inline.elementor-list-item-link-full_width.elementor-widget.elementor-widget-icon-list.animated.slideInLeft {
-    display: none;
-  }
-  .swiper-wrapper {
-    flex-direction: column;
-    align-items: center;
-  }
-  .zt-review-item {
-    max-width: 20rem;
-    padding: 1rem;
-    margin: 0 !important;
-  }
-  .zt-review-text {
-    font-size: 3vw;
-  }
-  .css-1jsn1ev {
-    width: 230px;
-    height: 55px;
-    left: 1%;
-  }
-}
-
 .first-work-style {
   width: 20rem !important;
   height: 25rem !important;
@@ -2161,4 +2044,158 @@ svg:not(:root) {
 .mr-1,
 .mx-1 {
   margin-right: 0.4rem;
+}
+
+@media (max-width: 768px) {
+  .name {
+    font-size: 5rem !important;
+  }
+  .c-heading.-h1-sans {
+    font-size: 2.5rem;
+  }
+  .content__title {
+    gap: 0rem !important;
+  }
+  .o-container {
+    padding: 0 0.5rem !important;
+  }
+  .font-small {
+    font-weight: 300 !important;
+  }
+  .zt-overview-container {
+    padding: 0 1rem !important;
+  }
+  .zt-overview-navs {
+    display: none !important;
+  }
+  .zt-overview-grid-col.-right {
+    padding-top: 0rem;
+  }
+  .zt-overview-item {
+    flex: 0 0 97%;
+    padding: 1rem;
+    margin: 2rem 1rem;
+  }
+  a.zt-btn.zt-btn_cta {
+    height: 2.5rem;
+    font-size: 1rem;
+  }
+  h3.work-desc {
+    text-align: center;
+    font-size: 1.3rem;
+  }
+  p.work-desc {
+    font-size: 3vw;
+    line-height: 1rem;
+    font-weight: 400;
+    text-align: center;
+  }
+  .zt-overview-action {
+    display: none;
+    justify-content: center;
+  }
+  .cnt-notice {
+    padding: 0px 1rem !important;
+  }
+  .zt-overview-items {
+    display: block;
+  }
+  .zt-overview-main {
+    margin: 0;
+    position: relative;
+    padding: 1rem;
+  }
+  .large-header h2 {
+    font-size: 50px;
+  }
+  .desc-footer {
+    width: var(--container-widget-width, 95%);
+    max-width: 90%;
+    --container-widget-width: 95%;
+  }
+  .footer-e-con {
+    flex-direction: column;
+    gap: 20px;
+  }
+  .footer-icon {
+    width: 100%;
+    justify-content: center;
+  }
+  .company-name {
+    width: 45%;
+  }
+  .company-text {
+    width: 45%;
+  }
+  .company-text p {
+    text-align: right;
+  }
+  .footer-copyright-text {
+    width: 100%;
+  }
+  ul.elementor-icon-list-items.elementor-inline-items {
+    width: 100%;
+    margin: 2px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0;
+  }
+  .elementor-element.elementor-element-fa177e4.elementor-align-right.elementor-mobile-align-center.elementor-widget__width-inherit.elementor-widget-mobile__width-initial.elementor-icon-list--layout-inline.elementor-list-item-link-full_width.elementor-widget.elementor-widget-icon-list.animated.slideInLeft {
+    display: none;
+  }
+  .swiper-wrapper {
+    flex-direction: column;
+    align-items: center;
+  }
+  .zt-review-item {
+    max-width: 20rem;
+    padding: 1rem;
+    margin: 0 !important;
+  }
+  .zt-review-text {
+    font-size: 3vw;
+  }
+  .css-1jsn1ev {
+    width: 320px;
+    height: 90px;
+    left: -3%;
+    top: -35%;
+  }
+  .scrobble[data-v-5d945552] {
+    width: 80%;
+  }
+  .scrobble__inner-border[data-v-5d945552] {
+    width: 200px;
+  }
+  .d-md-flex {
+    gap: 10px;
+  }
+  h2.work-heading2 {
+    font-size: 3.5rem !important;
+  }
+  .selected-works-list__link-wrap {
+    height: 5.75rem;
+  }
+  span.selected-works-list__link-year {
+    display: none;
+  }
+  span.selected-works-list__link-desc {
+    font-size: 12px;
+  }
+  .selected-works-list__link-title span {
+    font-size: 1.7rem;
+  }
+  .LayoutFilterGrid {
+    flex-direction: column;
+    gap: 40px;
+    align-content: center;
+  }
+  .LayoutFilterGrid > * {
+    padding-top: 0px !important;
+    padding-left: 0px !important;
+  }
+  .LayoutFilterGridItem {
+    width: 80% !important;
+  }
 }
