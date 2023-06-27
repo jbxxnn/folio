@@ -937,6 +937,7 @@ $(document).ready(function() {
         // Set timeout
         timeoutId = setTimeout(function() {
             clearInterval(countdownId);
+            $(".work-content-description").removeClass("work-content-description-active");
             // Find the next .work-content-description element and add class to it
             $this.next(".work-content-description").addClass("work-content-description-active");
         }, 3000); // 5 seconds
@@ -952,6 +953,13 @@ $(document).ready(function() {
             // Remove class from any .work-content-description element
             $(".work-content-description").removeClass("work-content-description-active");
         }, 2000); // 2 seconds
+    });
+});
+$(document).ready(function() {
+    $(".selected-works-list__link-wrap").click(function() {
+        var $this = $(this); // Get current hovered element
+        $(".work-content-description").removeClass("work-content-description-active");
+        $this.next(".work-content-description").addClass("work-content-description-active");
     });
 });
 
