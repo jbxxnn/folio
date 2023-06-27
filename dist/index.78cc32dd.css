@@ -2131,6 +2131,23 @@ svg:not(:root) {
   margin-right: .4rem;
 }
 
+.info-container p {
+  text-align: center;
+  background: #171717;
+  border-radius: 5px;
+  width: 15%;
+  margin: 3rem auto 0;
+  padding: 10px;
+  font-family: Unbounded;
+}
+
+label.wrapper p {
+  color: #171717;
+  font-family: Unbounded;
+  font-size: 30px;
+  transform: translate3d(0, 0, 0)scaleX(1.5)skew(-10deg);
+}
+
 @media (width <= 768px) {
   .name {
     font-size: 5rem !important;
@@ -2318,6 +2335,21 @@ svg:not(:root) {
 
   .LayoutFilterGridItem {
     width: 80% !important;
+  }
+
+  .work-content-description.work-content-description-active {
+    width: 80%;
+    padding: 30px;
+    font-size: 12px;
+  }
+
+  .selected-works-list__link:hover .selected-works-list__link-title span {
+    font-size: 1.5rem;
+  }
+
+  .info-container p {
+    width: 40%;
+    font-size: 12px;
   }
 }
 
