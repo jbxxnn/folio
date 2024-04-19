@@ -2047,7 +2047,7 @@ svg:not(:root) {
 }
 
 .info-container p {
-  width: 15%;
+  width: 20%;
   background: #171717;
   margin-top: 3rem;
   margin: 0 auto;
@@ -2227,4 +2227,7 @@ label.wrapper p {
     width: 40%;
     font-size: 12px;
   }
+}
+.footer-copyright-text {
+    width: 50%;
 }
